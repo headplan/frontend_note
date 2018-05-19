@@ -99,6 +99,7 @@ multiplexing即多路连接复用，在SPDY中提出，同时也在HTTP/2中实�
 ```
 看看你访问的网站的HTTP版本:window.chrome.loadTimes()
 connectionInfo:"h2"
+connectionInfo:"http/1.1"
 ```
 
 
