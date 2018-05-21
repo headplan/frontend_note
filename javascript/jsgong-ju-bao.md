@@ -6,6 +6,8 @@ InlineAttachment - 拖拽上传图片 . [https://github.com/Rovak/InlineAttachme
 
 emojify - 将emoji关键字转换为表情 . [https://github.com/emojione/emojify.js](https://github.com/emojione/emojify.js)
 
+localForage - 离线存储封装 , IndexedDB , WebSQL , localStorage . https://github.com/localForage/localForage
+
 #### jQuery
 
 anchorific.js - 根据标题标记自动生成定位标题和嵌套导航 . [https://github.com/renettarenula/anchorific.js](https://github.com/renettarenula/anchorific.js)
@@ -24,7 +26,5 @@ jquery.scrollUp - 滚动指定 . [https://github.com/markgoodyear/scrollup](http
 
 sticky - 跟随插件 , 例如顶部导航栏始终可见 , 跟随滚动条 . [https://github.com/garand/sticky](https://github.com/garand/sticky)
 
-jquery.textcomplete - 文本提示工具 , 例如提示emoji图标 . https://github.com/yuku-t/jquery-textcomplete
-
-
+jquery.textcomplete - 文本提示工具 , 例如提示emoji图标 . [https://github.com/yuku-t/jquery-textcomplete](https://github.com/yuku-t/jquery-textcomplete)
 
