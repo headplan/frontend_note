@@ -8,7 +8,11 @@ emojify - 将emoji关键字转换为表情 . [https://github.com/emojione/emojif
 
 localForage - 离线存储封装 , IndexedDB , WebSQL , localStorage . [https://github.com/localForage/localForage](https://github.com/localForage/localForage)
 
-marked - markdown实时编辑器 . https://github.com/markedjs/marked
+marked - markdown实时编辑器 . [https://github.com/markedjs/marked](https://github.com/markedjs/marked)
+
+messenger - 消息提示工具 . https://github.com/HubSpot/messenger
+
+Moment.js - 用于分析、验证、操作和格式化日期的库 . http://momentjs.com/
 
 #### jQuery
 
