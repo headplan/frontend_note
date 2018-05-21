@@ -16,7 +16,9 @@ Moment.js - 用于分析、验证、操作和格式化日期的库 . [http://mom
 
 nprogress - 加载进度条动画 . [http://ricostacruz.com/nprogress/](http://ricostacruz.com/nprogress/)
 
-prismjs - 语法高亮 . http://prismjs.com/
+prismjs - 语法高亮 . [http://prismjs.com/](http://prismjs.com/)
+
+sweetalert2 - js弹窗插件 . https://github.com/sweetalert2/sweetalert2
 
 #### jQuery
 
@@ -38,5 +40,5 @@ sticky - 跟随插件 , 例如顶部导航栏始终可见 , 跟随滚动条 . [h
 
 jquery.textcomplete - 文本提示工具 , 例如提示emoji图标 . [https://github.com/yuku-t/jquery-textcomplete](https://github.com/yuku-t/jquery-textcomplete)
 
-JQuery-Snowfall - 圣诞节下雪插件 . https://github.com/loktar00/JQuery-Snowfall
+JQuery-Snowfall - 圣诞节下雪插件 . [https://github.com/loktar00/JQuery-Snowfall](https://github.com/loktar00/JQuery-Snowfall)
 
