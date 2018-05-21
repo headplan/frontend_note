@@ -18,7 +18,7 @@ nprogress - 加载进度条动画 . [http://ricostacruz.com/nprogress/](http://r
 
 prismjs - 语法高亮 . [http://prismjs.com/](http://prismjs.com/)
 
-sweetalert2 - js弹窗插件 . [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) , 中文:http://mishengqiang.com/sweetalert2/
+sweetalert2 - js弹窗插件 . [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) , 中文 : [http://mishengqiang.com/sweetalert2/](http://mishengqiang.com/sweetalert2/)
 
 #### jQuery
 
