@@ -6,7 +6,9 @@ InlineAttachment - 拖拽上传图片 . [https://github.com/Rovak/InlineAttachme
 
 emojify - 将emoji关键字转换为表情 . [https://github.com/emojione/emojify.js](https://github.com/emojione/emojify.js)
 
-localForage - 离线存储封装 , IndexedDB , WebSQL , localStorage . https://github.com/localForage/localForage
+localForage - 离线存储封装 , IndexedDB , WebSQL , localStorage . [https://github.com/localForage/localForage](https://github.com/localForage/localForage)
+
+marked - markdown实时编辑器 . https://github.com/markedjs/marked
 
 #### jQuery
 
