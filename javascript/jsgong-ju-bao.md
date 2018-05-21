@@ -12,9 +12,13 @@ anchorific.js - 根据标题标记自动生成定位标题和嵌套导航 . [htt
 
 jquery.autosize - 自动调整 textarea 的高度以适应文本 . [https://github.com/jackmoore/autosize/](https://github.com/jackmoore/autosize/)
 
-jquery.highlight.js - 高亮插件 . http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html
+jquery.highlight.js - 高亮插件 . [http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html](http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html)
 
-jquery.jscroll.js - 滚动条插件 . https://github.com/pklauzinski/jscroll
+jquery.jscroll.js - 滚动条插件 . [https://github.com/pklauzinski/jscroll](https://github.com/pklauzinski/jscroll)
 
-jScrollPane - 滚动条插件 . https://github.com/vitch/jScrollPane
+jScrollPane - 滚动条插件 . [https://github.com/vitch/jScrollPane](https://github.com/vitch/jScrollPane)
+
+Pjax - Pjax插件 . https://github.com/defunkt/jquery-pjax
+
+jquery.scrollUp - 滚动指定 . https://github.com/markgoodyear/scrollup
 
