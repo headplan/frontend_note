@@ -10,5 +10,11 @@ emojify - 将emoji关键字转换为表情 . [https://github.com/emojione/emojif
 
 anchorific.js - 根据标题标记自动生成定位标题和嵌套导航 . [https://github.com/renettarenula/anchorific.js](https://github.com/renettarenula/anchorific.js)
 
-jquery.autosize - 自动调整 textarea 的高度以适应文本 . https://github.com/jackmoore/autosize/
+jquery.autosize - 自动调整 textarea 的高度以适应文本 . [https://github.com/jackmoore/autosize/](https://github.com/jackmoore/autosize/)
+
+jquery.highlight.js - 高亮插件 . http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html
+
+jquery.jscroll.js - 滚动条插件 . https://github.com/pklauzinski/jscroll
+
+jScrollPane - 滚动条插件 . https://github.com/vitch/jScrollPane
 
