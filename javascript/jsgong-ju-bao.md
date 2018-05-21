@@ -22,5 +22,9 @@ Pjax - Pjax插件 . [https://github.com/defunkt/jquery-pjax](https://github.com/
 
 jquery.scrollUp - 滚动指定 . [https://github.com/markgoodyear/scrollup](https://github.com/markgoodyear/scrollup)
 
-sticky - 跟随插件 , 例如顶部导航栏始终可见 , 跟随滚动条 . https://github.com/garand/sticky
+sticky - 跟随插件 , 例如顶部导航栏始终可见 , 跟随滚动条 . [https://github.com/garand/sticky](https://github.com/garand/sticky)
+
+jquery.textcomplete - 文本提示工具 , 例如提示emoji图标 . https://github.com/yuku-t/jquery-textcomplete
+
+
 
