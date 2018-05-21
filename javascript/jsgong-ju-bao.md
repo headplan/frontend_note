@@ -14,7 +14,9 @@ messenger - 消息提示工具 . [https://github.com/HubSpot/messenger](https://
 
 Moment.js - 用于分析、验证、操作和格式化日期的库 . [http://momentjs.com/](http://momentjs.com/)
 
-nprogress - 加载进度条动画 . http://ricostacruz.com/nprogress/
+nprogress - 加载进度条动画 . [http://ricostacruz.com/nprogress/](http://ricostacruz.com/nprogress/)
+
+prismjs - 语法高亮 . http://prismjs.com/
 
 #### jQuery
 
@@ -35,4 +37,6 @@ jquery.scrollUp - 滚动指定 . [https://github.com/markgoodyear/scrollup](http
 sticky - 跟随插件 , 例如顶部导航栏始终可见 , 跟随滚动条 . [https://github.com/garand/sticky](https://github.com/garand/sticky)
 
 jquery.textcomplete - 文本提示工具 , 例如提示emoji图标 . [https://github.com/yuku-t/jquery-textcomplete](https://github.com/yuku-t/jquery-textcomplete)
+
+JQuery-Snowfall - 圣诞节下雪插件 . https://github.com/loktar00/JQuery-Snowfall
 
