@@ -18,7 +18,9 @@ jquery.jscroll.js - 滚动条插件 . [https://github.com/pklauzinski/jscroll](h
 
 jScrollPane - 滚动条插件 . [https://github.com/vitch/jScrollPane](https://github.com/vitch/jScrollPane)
 
-Pjax - Pjax插件 . https://github.com/defunkt/jquery-pjax
+Pjax - Pjax插件 . [https://github.com/defunkt/jquery-pjax](https://github.com/defunkt/jquery-pjax)
 
-jquery.scrollUp - 滚动指定 . https://github.com/markgoodyear/scrollup
+jquery.scrollUp - 滚动指定 . [https://github.com/markgoodyear/scrollup](https://github.com/markgoodyear/scrollup)
+
+sticky - 跟随插件 , 例如顶部导航栏始终可见 , 跟随滚动条 . https://github.com/garand/sticky
 
