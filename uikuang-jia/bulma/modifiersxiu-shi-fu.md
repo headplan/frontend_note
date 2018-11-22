@@ -99,6 +99,8 @@
 * is-flex-widescreen
 * is-flex-fullhd
 
+![](/assets/tuli-2.png)
+
 对于其他显示选项 , 替换is-flex即可 , 例如`is-block`,`is-inline`,`is-inline-block`等 .
 
 **隐藏hidden**
