@@ -15,6 +15,7 @@
   * [Bulma](uikuang-jia/bulma.md)
     * [概述](uikuang-jia/bulma/gai-shu.md)
       * [变量](uikuang-jia/bulma/gai-shu/bian-liang.md)
+      * [颜色](uikuang-jia/bulma/gai-shu/yan-se.md)
     * Modifiers修饰符
     * Columns列
     * Layout布局
