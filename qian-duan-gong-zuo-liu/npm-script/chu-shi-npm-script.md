@@ -65,5 +65,9 @@ npm init # 生成
 npm init --yes # 重排
 ```
 
+#### 用 npm run 执行任意命令
+
+a
+
 
 
