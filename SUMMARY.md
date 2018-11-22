@@ -21,6 +21,10 @@
     * [Modifiers修饰符](uikuang-jia/bulma/modifiersxiu-shi-fu.md)
       * 版式帮助函数
     * [Columns列](uikuang-jia/bulma/columnslie.md)
+      * [列响应](uikuang-jia/bulma/columnslie/lie-xiang-ying.md)
+      * [嵌套列](uikuang-jia/bulma/columnslie/qian-tao-lie.md)
+      * [列间距](uikuang-jia/bulma/columnslie/lie-jian-ju.md)
+      * [列选项](uikuang-jia/bulma/columnslie/lie-xuan-xiang.md)
     * Layout布局
     * Form表单
     * Elements元素
