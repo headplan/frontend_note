@@ -18,7 +18,7 @@
       * [颜色](uikuang-jia/bulma/gai-shu/yan-se.md)
       * [函数](uikuang-jia/bulma/gai-shu/han-shu.md)
       * [响应](uikuang-jia/bulma/gai-shu/xiang-ying.md)
-    * Modifiers修饰符
+    * [Modifiers修饰符](uikuang-jia/bulma/modifiersxiu-shi-fu.md)
       * 版式帮助函数
     * Columns列
     * Layout布局
