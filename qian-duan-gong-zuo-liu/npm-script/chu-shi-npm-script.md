@@ -46,7 +46,7 @@ npm init --yes
 npm init --force
 ```
 
-初始化package.json时的字段默认值可以自定义配置 : 
+初始化package.json时的字段默认值可以自定义配置 :
 
 ```
 npm config set init.author.email "headplan@163.com"
@@ -56,5 +56,13 @@ npm config set init.license "MIT"
 npm config set init.version "0.1.0"
 ```
 
-现在初始化就可以直接`npm init --yes`了 . 
+现在初始化就可以直接`npm init --yes`了 . 重试一下命令 : 
+
+```
+mkdir my-npm-script && cd $_
+npm init # 生成
+npm init --yes # 重排
+```
+
+
 
