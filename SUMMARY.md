@@ -26,6 +26,13 @@
       * [列间距](uikuang-jia/bulma/columnslie/lie-jian-ju.md)
       * [列选项](uikuang-jia/bulma/columnslie/lie-xuan-xiang.md)
     * [Layout布局](uikuang-jia/bulma/layoutbu-ju.md)
+      * [Container容器](uikuang-jia/bulma/layoutbu-ju/containerrong-qi.md)
+      * Level层次
+      * Media Object媒体对象
+      * Hero横幅
+      * Section容器
+      * Footer页脚
+      * [Tiles面板](uikuang-jia/bulma/layoutbu-ju/tilesmian-ban.md)
     * Form表单
     * Elements元素
     * [Components组件](uikuang-jia/bulma/componentszu-jian.md)
