@@ -14,6 +14,7 @@
     * [快速应用](uikuang-jia/bootstrap/kuai-su-ying-yong.md)
   * [Bulma](uikuang-jia/bulma.md)
     * [概述](uikuang-jia/bulma/gai-shu.md)
+      * [变量](uikuang-jia/bulma/gai-shu/bian-liang.md)
     * Modifiers修饰符
     * Columns列
     * Layout布局
