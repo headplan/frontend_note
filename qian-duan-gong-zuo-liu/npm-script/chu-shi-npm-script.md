@@ -43,6 +43,7 @@ license: (ISC)
 ```
 npm init --yes
 # 或
+npm init -f
 npm init --force
 ```
 
@@ -56,7 +57,7 @@ npm config set init.license "MIT"
 npm config set init.version "0.1.0"
 ```
 
-现在初始化就可以直接`npm init --yes`了 . 重试一下命令 : 
+现在初始化就可以直接`npm init --yes`了 . 重试一下命令 :
 
 ```
 mkdir my-npm-script && cd $_
