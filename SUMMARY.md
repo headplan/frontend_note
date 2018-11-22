@@ -16,7 +16,10 @@
     * [概述](uikuang-jia/bulma/gai-shu.md)
       * [变量](uikuang-jia/bulma/gai-shu/bian-liang.md)
       * [颜色](uikuang-jia/bulma/gai-shu/yan-se.md)
+      * [函数](uikuang-jia/bulma/gai-shu/han-shu.md)
+      * 响应
     * Modifiers修饰符
+      * 版式帮助函数
     * Columns列
     * Layout布局
     * Form表单
