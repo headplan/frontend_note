@@ -20,7 +20,7 @@
       * [响应](uikuang-jia/bulma/gai-shu/xiang-ying.md)
     * [Modifiers修饰符](uikuang-jia/bulma/modifiersxiu-shi-fu.md)
       * 版式帮助函数
-    * Columns列
+    * [Columns列](uikuang-jia/bulma/columnslie.md)
     * Layout布局
     * Form表单
     * Elements元素
