@@ -38,7 +38,7 @@ license: (ISC)
 
 生成package.json文件 .
 
-文件可以用编辑器编辑 , 或者使用npm init再次修改 , npm默认不会覆盖修改里面已经存在的信息 . 要快速生成package.json文件也可以添加参数 , 直接生成 : 
+文件可以用编辑器编辑 , 或者使用npm init再次修改 , npm默认不会覆盖修改里面已经存在的信息 . 要快速生成package.json文件也可以添加参数 , 直接生成 :
 
 ```
 npm init --yes
@@ -46,5 +46,15 @@ npm init --yes
 npm init --force
 ```
 
+初始化package.json时的字段默认值可以自定义配置 : 
 
+```
+npm config set init.author.email "headplan@163.com"
+npm config set init.author.name "headplan"
+npm config set init.author.url "https://github.com/headplan"
+npm config set init.license "MIT"
+npm config set init.version "0.1.0"
+```
+
+现在初始化就可以直接`npm init --yes`了 . 
 
