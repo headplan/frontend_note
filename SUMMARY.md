@@ -17,7 +17,7 @@
       * [变量](uikuang-jia/bulma/gai-shu/bian-liang.md)
       * [颜色](uikuang-jia/bulma/gai-shu/yan-se.md)
       * [函数](uikuang-jia/bulma/gai-shu/han-shu.md)
-      * 响应
+      * [响应](uikuang-jia/bulma/gai-shu/xiang-ying.md)
     * Modifiers修饰符
       * 版式帮助函数
     * Columns列
