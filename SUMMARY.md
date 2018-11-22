@@ -28,5 +28,6 @@
     * [Layout布局](uikuang-jia/bulma/layoutbu-ju.md)
     * Form表单
     * Elements元素
-    * Components组件
+    * [Components组件](uikuang-jia/bulma/componentszu-jian.md)
+      * [Navbar](uikuang-jia/bulma/componentszu-jian/navbar.md)
 
