@@ -6,3 +6,9 @@
 
 npm script 相比 grunt、gulp 之类的构建工具简单很多 , 因为它消除了这些构建工具所带来的抽象层 , 并带给我们更大的自由度 . 
 
+开源包 : 
+
+https://www.npmjs.com/
+
+https://libraries.io/
+
