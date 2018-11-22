@@ -25,7 +25,7 @@
       * [嵌套列](uikuang-jia/bulma/columnslie/qian-tao-lie.md)
       * [列间距](uikuang-jia/bulma/columnslie/lie-jian-ju.md)
       * [列选项](uikuang-jia/bulma/columnslie/lie-xuan-xiang.md)
-    * Layout布局
+    * [Layout布局](uikuang-jia/bulma/layoutbu-ju.md)
     * Form表单
     * Elements元素
     * Components组件
