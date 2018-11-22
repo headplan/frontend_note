@@ -39,4 +39,7 @@
       * [Navbar](uikuang-jia/bulma/componentszu-jian/navbar.md)
 * [前端工作流](qian-duan-gong-zuo-liu.md)
   * [npm script](qian-duan-gong-zuo-liu/npm-script.md)
+    * [初识npm script](qian-duan-gong-zuo-liu/npm-script/chu-shi-npm-script.md)
+    * 运行多个npm script的各种姿势
+    * 给npm script传递参数和添加注释
 
