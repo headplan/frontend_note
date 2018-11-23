@@ -239,7 +239,7 @@ npm run eslint
 
 **eslint检查主流前端框架react , vue.js**
 
-使用 eslint-plugin-react 检查 react 代码 , 使用 react-plugin-react-native 检查 react-native 代码 , 可以直接使用 eslint-config-airbnb , 里面内置了 eslint-plugin-react , 新人常遇到 peerDependencies 安装失败问题可参照 npmjs 主页上的如下方法解决 : 
+使用 eslint-plugin-react 检查 react 代码 , 使用 react-plugin-react-native 检查 react-native 代码 , 可以直接使用 eslint-config-airbnb , 里面内置了 eslint-plugin-react , 新人常遇到 peerDependencies 安装失败问题可参照 npmjs 主页上的如下方法解决 :
 
 ```
 (
@@ -248,5 +248,5 @@ npm run eslint
 )
 ```
 
-
+eslint 规则集的官方仓库都列出了各自支持的规则 , 可以在.eslintrc文件中配置 . 
 
