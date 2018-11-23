@@ -216,5 +216,26 @@ module.exports = {
 }
 ```
 
+**运行eslint**
+
+```
+npm run eslint
+```
+
+输出结果可以看到 , 有三处不符合官方推荐的规范
+
+```js
+npm run eslint
+
+> my-npm-script@0.1.0 eslint /Users/test
+> eslint *.js
+
+
+/Users/test/index.js
+  1:7   error  'str' is assigned a value but never used  no-unused-vars
+  3:10  error  'fn' is defined but never used            no-unused-vars
+  5:5   error  Unexpected console statement              no-console
+```
+
 
 
