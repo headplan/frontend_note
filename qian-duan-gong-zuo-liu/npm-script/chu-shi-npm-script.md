@@ -113,11 +113,11 @@ npm run实际上是npm run-script命令的简写 , 运行步骤基本是 :
 
 #### 创建自定义npm script
 
-前面已经生成了package文件 , 也知道了怎么写npm script . 现在在项目中添加eslint脚本 , 它是一个javascript风格检查工具 , 提供了很多现成的规则集 , 比如google , airbnb . 
+前面已经生成了package文件 , 也知道了怎么写npm script . 现在在项目中添加eslint脚本 , 它是一个javascript风格检查工具 , 提供了很多现成的规则集 , 比如google , airbnb .
 
-添加eslint自定义脚本的步骤 : 
+添加eslint自定义脚本的步骤 :
 
-创建index.js文件 , 写入 : 
+**创建index.js文件 , 写入**
 
 ```js
 const str = 'Hello World';
@@ -126,6 +126,14 @@ function fn()
 {
     console.log('Hello World');
 }
+```
+
+**添加eslint依赖**
+
+将eslint添加为devDependencies
+
+```
+npm install eslint -D
 ```
 
 
