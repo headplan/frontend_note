@@ -165,7 +165,7 @@ Successfully created .eslintrc.js file in /Users/test
 
 最后生成配置文件.eslintrc.js
 
-```
+```js
 module.exports = {
     "env": {
         "es6": true,
