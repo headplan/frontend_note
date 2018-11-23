@@ -136,5 +136,65 @@ function fn()
 npm install eslint -D
 ```
 
+**初始化eslint配置**
+
+首先需要配置规则集 , 存放规则集的文件就是配置文件
+
+```
+./node_modules/.bin/eslint --init
+```
+
+> 为了提高可移植性 , 把eslint安装为项目依赖而非全局命令
+
+根据提示回答几个问题
+
+```
+./node_modules/.bin/eslint --init
+? How would you like to configure ESLint? Answer questions about your style
+? Which version of ECMAScript do you use? ES2015
+? Are you using ES6 modules? No
+? Where will your code run? Node
+? Do you use JSX? No
+? What style of indentation do you use? Spaces
+? What quotes do you use for strings? Single
+? What line endings do you use? Unix
+? Do you require semicolons? Yes
+? What format do you want your config file to be in? JavaScript
+Successfully created .eslintrc.js file in /Users/test
+```
+
+最后生成配置文件.eslintrc.js
+
+```
+module.exports = {
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2015
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+};
+```
+
 
 
