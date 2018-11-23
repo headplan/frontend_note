@@ -111,7 +111,7 @@ npm run实际上是npm run-script命令的简写 , 运行步骤基本是 :
 
 > 这里执行命令的时候 , 会自动调用环境变量 , 也就是./node\_modules/.bin/eslint \*\*.js
 
-
+#### 创建自定义npm script
 
 
 
