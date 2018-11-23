@@ -93,7 +93,7 @@ npm run实际上是npm run-script命令的简写 , 运行步骤基本是 :
 
 流程中还可以设置hook机制 .
 
-举个例子 , package.json的内容如下 : 
+举个例子 , package.json的内容如下 :
 
 ```
 {
@@ -104,10 +104,7 @@ npm run实际上是npm run-script命令的简写 , 运行步骤基本是 :
   "scripts": {
     "eslint": "eslint **.js"
   }
-}...
-
-https://juejin.im
-掘金 — 一个帮助开发者成长的社区
+}
 ```
 
 
