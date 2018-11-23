@@ -67,7 +67,23 @@ npm init --yes # 重排
 
 #### 用 npm run 执行任意命令
 
-a
+前面已经生成了package.json文件 , 里面包含script字段 : 
+
+```
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+```
+
+现在运行测试项目的命令 , 看看错误输出 : 
+
+```
+npm run test
+npm test
+npm t
+```
+
+和test一样 , start也是npm内置支持的命令 , 但是也需要在scripts字段中声明一下 , 没有声明则会直接报错 . 
 
 
 

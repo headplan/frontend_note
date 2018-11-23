@@ -41,5 +41,5 @@
   * [npm script](qian-duan-gong-zuo-liu/npm-script.md)
     * [初识npm script](qian-duan-gong-zuo-liu/npm-script/chu-shi-npm-script.md)
     * 运行多个npm script的各种姿势
-    * 给npm script传递参数和添加注释
+    * [给npm script传递参数和添加注释](qian-duan-gong-zuo-liu/npm-script/gei-npm-script-chuan-di-can-shu-he-tian-jia-zhu-shi.md)
 
