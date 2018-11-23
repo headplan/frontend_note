@@ -107,7 +107,11 @@ npm run实际上是npm run-script命令的简写 , 运行步骤基本是 :
 }
 ```
 
-直接运行npm run , 会列出可执行的所有命令列表 . 
+直接运行npm run , 会列出可执行的所有命令列表 . 运行npm run eslint会在shell中运行eslint \*\*.js
+
+> 这里执行命令的时候 , 会自动调用环境变量 , 也就是./node\_modules/.bin/eslint \*\*.js
+
+
 
 
 
