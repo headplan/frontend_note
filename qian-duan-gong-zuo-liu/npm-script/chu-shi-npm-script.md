@@ -83,15 +83,32 @@ npm test
 npm t
 ```
 
-和test一样 , start也是npm内置支持的命令 , 但是也需要在scripts字段中声明一下 , 没有声明则会直接报错 . 
+和test一样 , start也是npm内置支持的命令 , 但是也需要在scripts字段中声明一下 , 没有声明则会直接报错 .
 
-npm run实际上是npm run-script命令的简写 , 运行步骤基本是 : 
+npm run实际上是npm run-script命令的简写 , 运行步骤基本是 :
 
 * 从package.json文件读取scripts对象里面的全部配置
 * 以传给npm run的第一个参数为键 , 在scripts对象里面获取对应的值作为要执行的命令
 * 在系统默认的shell中执行前面的命令
 
-流程中还可以设置hook机制 . 
+流程中还可以设置hook机制 .
+
+举个例子 , package.json的内容如下 : 
+
+```
+{
+  "name": "my-npm-script",
+  "devDependencies": {
+    "eslint": "latest"
+  },
+  "scripts": {
+    "eslint": "eslint **.js"
+  }
+}...
+
+https://juejin.im
+掘金 — 一个帮助开发者成长的社区
+```
 
 
 
