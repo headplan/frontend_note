@@ -196,5 +196,25 @@ module.exports = {
 };
 ```
 
+**添加eslint命令**
+
+```js
+{
+  "name": "my-npm-script",
+  "devDependencies": {
+    "eslint": "^5.9.0"
+  },
+  "scripts": {
+    "eslint": "eslint *.js"
+  },
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "headplan <headplan@163.com> (https://github.com/headplan)",
+  "license": "MIT",
+  "keywords": [],
+  "description": ""
+}
+```
+
 
 
