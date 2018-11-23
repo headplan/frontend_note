@@ -67,7 +67,7 @@ npm init --yes # 重排
 
 #### 用 npm run 执行任意命令
 
-前面已经生成了package.json文件 , 里面包含script字段 : 
+前面已经生成了package.json文件 , 里面包含script字段 :
 
 ```
 "scripts": {
@@ -75,7 +75,7 @@ npm init --yes # 重排
 },
 ```
 
-现在运行测试项目的命令 , 看看错误输出 : 
+现在运行测试项目的命令 , 看看错误输出 :
 
 ```
 npm run test
@@ -84,6 +84,14 @@ npm t
 ```
 
 和test一样 , start也是npm内置支持的命令 , 但是也需要在scripts字段中声明一下 , 没有声明则会直接报错 . 
+
+npm run实际上是npm run-script命令的简写 , 运行步骤基本是 : 
+
+* 从package.json文件读取scripts对象里面的全部配置
+* 以传给npm run的第一个参数为键 , 在scripts对象里面获取对应的值作为要执行的命令
+* 在系统默认的shell中执行前面的命令
+
+流程中还可以设置hook机制 . 
 
 
 
