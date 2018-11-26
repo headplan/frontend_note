@@ -18,5 +18,13 @@ npm内置多命令运行机 , 互不阻塞的运行npm script : npm-run-all
 
 > 测试工具如tap , ava也都提供了命令行接口 , 能很好的集成到 npm script 中 , 原理是相通的 .
 
+整理基本的代码检查 , 单元测试命令的package.json : 
+
+```
+{
+
+}
+```
+
 
 
