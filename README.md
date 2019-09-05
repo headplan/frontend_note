@@ -1,4 +1,4 @@
-# Web Note
+# Frontend Note
 
 [https://developer.mozilla.org/zh-CN/](https://developer.mozilla.org/zh-CN/) - 火狐文档
 

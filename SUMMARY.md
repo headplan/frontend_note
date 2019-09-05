@@ -1,6 +1,6 @@
 # Summary
 
-* [About Web](README.md)
+* [About Frontend](README.md)
 * [HTTP](chapter1.md)
   * [HTTP概述](chapter1/httpgai-shu.md)
   * [HTTP缓存](chapter1/httphuan-cun.md)
