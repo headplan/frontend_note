@@ -2,6 +2,12 @@
 
 * [About Frontend](README.md)
 * [Javascript](javascript.md)
+  * JS类型
+  * JS对象
+  * JS执行
+  * JS词法
+  * JS编译原理
+  * JS语法
   * [jQuery](javascript/jquery.md)
   * [JS工具包](javascript/jsgong-ju-bao.md)
 * [HTTP](chapter1.md)
