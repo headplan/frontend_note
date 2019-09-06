@@ -2,7 +2,7 @@
 
 * [About Frontend](README.md)
 * [Javascript](javascript.md)
-  * JS类型
+  * [JS类型](javascript/jslei-xing.md)
   * JS对象
   * JS执行
   * JS词法
