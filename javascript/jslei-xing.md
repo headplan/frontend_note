@@ -40,3 +40,7 @@ Undefined类型表示未定义 , 它的类型只有一个值 , 就是undefined .
 
 但是 , JS中undefined是一个变量 , 而并非一个关键字 , 这也是JS工人的设计失误之一 . 所以 , 为了避免无意中被篡改 , 一般都建议使用void 0来获取undefined值 . 
 
+Undefined跟Null有一定的表一差别 , Null表示的是 : "定义了但是为空" . 所以 , 在实际编程时 , 一般不会把变量赋值为undefined , 这样可以保证所有值为undefined的变量 , 都是从未赋值的自然状态 . 
+
+Null类型也只有一个值 , 就是null , 它的语义表示空值 , 与undefined不同 , null是JS关键字 , 所以在任何代码中 , 都可以放心用null关键字来获取null值 . 
+
