@@ -38,5 +38,5 @@ Undefined类型表示未定义 , 它的类型只有一个值 , 就是undefined .
 > * `void function main(){};`申明此函数返回的是undefined;没有return的函数默认也是返回undefined . 
 > * `javascript:void '';` , `javascript:void "1";` , `javascript:undefined;`
 
-
+但是 , JS中undefined是一个变量 , 而并非一个关键字 , 这也是JS工人的设计失误之一 . 所以 , 为了避免无意中被篡改 , 一般都建议使用void 0来获取undefined值 . 
 
