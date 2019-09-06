@@ -28,15 +28,15 @@ JS语言的每一个值都属于某一种数据类型 . JS语言规定了7种语
 
 #### Undefined和Null
 
-为什么有的编程规范要求用vioid 0代替undefined ? 
+为什么有的编程规范要求用vioid 0代替undefined ?
 
-Undefined类型表示未定义 , 它的类型只有一个值 , 就是undefined . 任何变量在赋值前都是Undefined类型 , 值为undefined , 一般可以用全局变量undefined来表达这个值 , 也就是名为undefined的变量 , 或者void运算来把任意一个表达式变成undefined值 . 
+Undefined类型表示未定义 , 它的类型只有一个值 , 就是undefined . 任何变量在赋值前都是Undefined类型 , 值为undefined , 一般可以用全局变量undefined来表达这个值 , 也就是名为undefined的变量 , 或者void运算来把任意一个表达式变成undefined值 .
 
 > **JS中函数void\(\)的运用大体是如下形式 : **
 >
 > * void是运算符 , 对任何值都返回undefined . 和typeof运算符号一样可以 `void(0);`或者`void 0;`
 > * `void function main(){};`申明此函数返回的是undefined;没有return的函数默认也是返回undefined . 
-> * `javascript:void ''` , `javascript:void "1"` , `javascript:undefined`
+> * `javascript:void '';` , `javascript:void "1";` , `javascript:undefined;`
 
 
 
