@@ -38,9 +38,31 @@ Undefined类型表示未定义 , 它的类型只有一个值 , 就是undefined .
 > * `void function main(){};`申明此函数返回的是undefined;没有return的函数默认也是返回undefined . 
 > * `javascript:void '';` , `javascript:void "1";` , `javascript:undefined;`
 
-但是 , JS中undefined是一个变量 , 而并非一个关键字 , 这也是JS工人的设计失误之一 . 所以 , 为了避免无意中被篡改 , 一般都建议使用void 0来获取undefined值 . 
+但是 , JS中undefined是一个变量 , 而并非一个关键字 , 这也是JS工人的设计失误之一 . 所以 , 为了避免无意中被篡改 , 一般都建议使用void 0来获取undefined值 .
 
-Undefined跟Null有一定的表一差别 , Null表示的是 : "定义了但是为空" . 所以 , 在实际编程时 , 一般不会把变量赋值为undefined , 这样可以保证所有值为undefined的变量 , 都是从未赋值的自然状态 . 
+Undefined跟Null有一定的表一差别 , Null表示的是 : "定义了但是为空" . 所以 , 在实际编程时 , 一般不会把变量赋值为undefined , 这样可以保证所有值为undefined的变量 , 都是从未赋值的自然状态 .
 
 Null类型也只有一个值 , 就是null , 它的语义表示空值 , 与undefined不同 , null是JS关键字 , 所以在任何代码中 , 都可以放心用null关键字来获取null值 . 
+
+#### Boolean
+
+布尔类型有两个值 , true和false . 用于表示逻辑意义上的真和假 , 同样有关键字true和false来表示两个值 . 
+
+#### String
+
+> 字符串有最大长度吗 ?
+
+String用于表示文本数据 . String的最大长度是2^53-1 , 这在一般开发中都是够用的 , 但是所谓的最大长度 , 并不是通常理解的字符数 . 
+
+因为String的意义并非"字符串" , 而是字符串的UTF16编码 , 字符串操作charAt , charCodeAt , length等方法针对的都是UTF16编码 . 所以 , 字符串的最大长度 , 实际上是受字符串的编码长度影响的 . 
+
+> Note : 现行的字符集国际标准 , 字符是以Unicode的方式表示的 , 每一个Unicode的码点表示一个字符 , 理论上 , Unicode的范围是无限的 . UTF是Unicode的编码方式 , 规定了码点在计算机中的表示方法 , 常见的有UTF16和UTF8 . Unicode的码点通常用U+???来表示 , 其中???是十六进制的码点值 . 0-65536\(U+0000 - U+FFFF\)的码点被称为基本字符区域\(BMP\) .
+
+**JS中的字符串是永远无法变更的 , 一旦字符串构造出来 , 无法用任何方式改变字符串的内容 , 所以字符串具有值类型的特征 . **
+
+JS字符串把每个UTF16单元当作一个字符来处理 , 所以处理非BMP的字符时 , 应该格外小心 . \(超出U+0000 - U+FFFF的字符\)
+
+JS的这个设计继承自Java , 最新标准中是这样解释的 , 这样设计是为了性能和尽可能实现起来简单 . 因为现实中很少用到BMP之外的字符 . 
+
+
 
