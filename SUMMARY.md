@@ -48,5 +48,7 @@
     * [初识npm script](qian-duan-gong-zuo-liu/npm-script/chu-shi-npm-script.md)
     * [运行多个npm script的各种姿势](qian-duan-gong-zuo-liu/npm-script/yun-xing-duo-ge-npm-script-de-ge-zhong-zi-shi.md)
     * [给npm script传递参数和添加注释](qian-duan-gong-zuo-liu/npm-script/gei-npm-script-chuan-di-can-shu-he-tian-jia-zhu-shi.md)
+    * [npm与yarn](qian-duan-gong-zuo-liu/npm-script/npmyu-yarn.md)
+    * [资源选择](qian-duan-gong-zuo-liu/npm-script/zi-yuan-xuan-ze.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
