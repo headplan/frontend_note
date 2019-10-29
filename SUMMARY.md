@@ -50,5 +50,7 @@
     * [给npm script传递参数和添加注释](qian-duan-gong-zuo-liu/npm-script/gei-npm-script-chuan-di-can-shu-he-tian-jia-zhu-shi.md)
     * [npm与yarn](qian-duan-gong-zuo-liu/npm-script/npmyu-yarn.md)
     * [资源选择](qian-duan-gong-zuo-liu/npm-script/zi-yuan-xuan-ze.md)
+  * [webpack](qian-duan-gong-zuo-liu/webpack.md)
+    * [快速使用](qian-duan-gong-zuo-liu/webpack/kuai-su-shi-yong.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
