@@ -52,5 +52,6 @@
     * [资源选择](qian-duan-gong-zuo-liu/npm-script/zi-yuan-xuan-ze.md)
   * [webpack](qian-duan-gong-zuo-liu/webpack.md)
     * [快速使用](qian-duan-gong-zuo-liu/webpack/kuai-su-shi-yong.md)
+    * [快速使用2](qian-duan-gong-zuo-liu/webpack/kuai-su-shi-yong-2.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
