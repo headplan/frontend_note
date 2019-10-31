@@ -61,5 +61,6 @@
     * [组件化开发](jskuang-jia/vuejs/zu-jian-hua-kai-fa.md)
     * [Vue-axios](jskuang-jia/vuejs/vue-axios.md)
     * [Vue-router](jskuang-jia/vuejs/vue-router.md)
+    * [Vue-cli](jskuang-jia/vuejs/vue-cli.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
