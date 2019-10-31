@@ -70,5 +70,11 @@
       * [element](jskuang-jia/vuejs/uizu-jian/element.md)
       * [iView](jskuang-jia/vuejs/uizu-jian/iview.md)
       * [buefy](jskuang-jia/vuejs/uizu-jian/buefy.md)
+    * [基础](jskuang-jia/vuejs/ji-chu.md)
+    * [进阶](jskuang-jia/vuejs/jin-jie.md)
+    * [API](jskuang-jia/vuejs/api.md)
+    * [Router](jskuang-jia/vuejs/router.md)
+    * [Vuex](jskuang-jia/vuejs/vuex.md)
+    * [Awesome Vue](jskuang-jia/vuejs/awesome-vue.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
