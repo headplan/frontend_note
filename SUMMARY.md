@@ -58,5 +58,6 @@
 * [JS框架](jskuang-jia.md)
   * [Vue.js](jskuang-jia/vuejs.md)
     * [快速使用](jskuang-jia/vuejs/kuai-su-shi-yong.md)
+    * [组件化开发](jskuang-jia/vuejs/zu-jian-hua-kai-fa.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
