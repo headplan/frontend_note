@@ -71,6 +71,17 @@
       * [iView](jskuang-jia/vuejs/uizu-jian/iview.md)
       * [buefy](jskuang-jia/vuejs/uizu-jian/buefy.md)
     * [基础](jskuang-jia/vuejs/ji-chu.md)
+      * [安装](jskuang-jia/vuejs/ji-chu/an-zhuang.md)
+      * 介绍
+      * Vue实例
+      * 模板语法
+      * 计算属性
+      * Class与Style绑定
+      * 条件渲染
+      * 列表渲染
+      * 事件处理器
+      * 表单控件绑定
+      * 组件
     * [进阶](jskuang-jia/vuejs/jin-jie.md)
     * [API](jskuang-jia/vuejs/api.md)
     * [Router](jskuang-jia/vuejs/router.md)
