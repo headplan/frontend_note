@@ -67,5 +67,8 @@
       * [小应用](jskuang-jia/vuejs/jian-dan-ying-yong/xiao-ying-yong.md)
     * [简单总结](jskuang-jia/vuejs/jian-dan-zong-jie.md)
     * [UI组件](jskuang-jia/vuejs/uizu-jian.md)
+      * [element](jskuang-jia/vuejs/uizu-jian/element.md)
+      * [iView](jskuang-jia/vuejs/uizu-jian/iview.md)
+      * buefy
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
