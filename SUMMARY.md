@@ -55,5 +55,6 @@
     * [引入VueJS](qian-duan-gong-zuo-liu/webpack/kuai-su-shi-yong-2.md)
     * [Webpack的配置与插件](qian-duan-gong-zuo-liu/webpack/kuai-su-shi-yong-3.md)
     * [Loaders](qian-duan-gong-zuo-liu/webpack/loaders.md)
+* [JS框架](jskuang-jia.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
