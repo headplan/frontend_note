@@ -62,5 +62,6 @@
     * [Vue-axios](jskuang-jia/vuejs/vue-axios.md)
     * [Vue-router](jskuang-jia/vuejs/vue-router.md)
     * [Vue-cli](jskuang-jia/vuejs/vue-cli.md)
+      * [引入其他库](jskuang-jia/vuejs/vue-cli/yin-ru-qi-ta-ku.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
