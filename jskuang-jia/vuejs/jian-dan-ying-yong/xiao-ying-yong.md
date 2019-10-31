@@ -248,5 +248,165 @@ delList:function (list) {
 </html>
 ```
 
+* computed proporty 对于代码逻辑和业务逻辑的出来非常有用 , 可以理解为闭包代码块 . 
+* v-bind:class 则是应用于页面的样式和渲染方面 , 使得 Web 应用更具体验性 . 
+
+**逻辑处理computed**
+
+```js
+# 计算上一节列表页面中list的个数
+# 当然,我们可以直接写成下面的样子
+<h1>{{ msg + ' . ' + lists.length }}</h1>
+# 不过对于这种代码逻辑或业务逻辑的区块,可以交给computed封装完成
+# 这里我们声明一个listNum变量,然后在computed中写这个变量的闭包函数
+computed: {
+    listNum:function () {
+        return this.lists.length;
+    }
+},
+```
+
+**样式绑定v-bind:class**
+
+```js
+# 根据数据绑定样式渲染方式
+# 假设我们的数据中第三列是处理状态的,默认为false|status:false
+v-bind:class="{'status':i.status}"
+# 在li的item中绑定
+<li class="list-group-item"
+    v-bind:class="{'status':i.status}"
+    v-for="(i,index) in lists">{{ i.title }}
+    <button v-on:click="delList(index)"
+    class="btn btn-warning btn-xs pull-right">删除清单</button>
+</li>
+# 别忘记给数据格式都添加上status列,再添加样式
+.status {
+    color: #67b168;
+    text-decoration: line-through;
+}
+# 现在上面的样式就会根据数据的状态显示,其中前面的是样式名称,后面是数据
+# 添加一个按钮来控制这个状态,按钮上绑定一个新的方法即可
+<button v-on:click="checkStatus(i)"
+    class="btn btn-success btn-xs pull-right">完成</button>
+# 方法
+checkStatus:function (i) {
+    i.status = ! i.status
+}
+
+# 扩展
+# 现在可以给刚才添加的button按钮也绑定上class样式
+v-bind:class="[ i.status ? 'btn-success' : 'btn-danger' ]"
+# 这里用到了一个三元运算符
+# 同样文本也可以用三元运算符去判断
+{{ i.status ? '完成' : '未完成' }}
+```
+
+**完整演示**
+
+```js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Vue.js</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        .status {
+            color: #67b168;
+            text-decoration: line-through;
+        }
+        button {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+<div class="navbar navbar-default navbar-static-top">
+    <span class="navbar-brand">My Todo List</span>
+</div>
+<div class="container" id="click">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">Welcome Todolist</div>
+                <div class="panel-body">
+                    <h3>{{ msg + ' . ' + listNum }}</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item"
+                            v-bind:class="{'status':i.status}"
+                            v-for="(i,index) in lists">{{ i.title }}
+                            <button v-on:click="delList(index)"
+                                    class="btn btn-warning btn-xs pull-right">删除清单</button>
+                            <button v-bind:class="[ i.status ? 'btn-success' : 'btn-danger' ]"
+                                    v-on:click="checkStatus(i)"
+                                    class="btn btn-success btn-xs pull-right">
+                                {{ i.status ? '完成' : '未完成' }}
+                            </button>
+                        </li>
+                    </ul>
+                    <form v-on:submit.prevent="addList(newList)">
+                        <div class="form-group">
+                            <input v-model="newList.title" type="text" class="form-control" placeholder="添加一个list">
+                        </div>
+                        <div class="form-g">
+                            <button class="btn btn-success">添加清单</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el: '#click',
+        data: {
+            msg: 'My Todo List',
+            lists: [
+                {
+                    id:1,
+                    title:'Test List',
+                    status: false
+                }
+            ],
+            newList: {
+                id:null,
+                title:'',
+                status:false
+            }
+        },
+        computed: {
+            listNum:function () {
+                return this.lists.length;
+            }
+        },
+        methods: {
+            addList:function (newList) {
+                if (newList.title.length <= 0) {
+                    return false;
+                }
+                console.log(newList);
+                this.lists.push(newList)
+                this.newList = {
+                    id:null,
+                    title:'',
+                    status:false
+                }
+            },
+            delList:function (index) {
+                this.lists.splice(index,1)
+            },
+            checkStatus:function (i) {
+                i.status = ! i.status
+            }
+        }
+    })
+</script>
+</body>
+</html>
+```
+
 
 
