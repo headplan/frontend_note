@@ -87,5 +87,6 @@
     * [Router](jskuang-jia/vuejs/router.md)
     * [Vuex](jskuang-jia/vuejs/vuex.md)
     * [Awesome Vue](jskuang-jia/vuejs/awesome-vue.md)
+  * [Axios.js](jskuang-jia/axiosjs.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 
