@@ -23,5 +23,17 @@ axios({
 axios('/user/12345');
 ```
 
+#### 请求方法的别名
+
+```
+axios.request(config)
+axios.get(url[, config])
+axios.delete(url[, config])
+axios.head(url[, config])
+axios.post(url[, data[, config]])
+axios.put(url[, data[, config]])
+axios.patch(url[, data[, config]])
+```
+
 
 
