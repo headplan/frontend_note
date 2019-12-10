@@ -1,8 +1,8 @@
 # axios API
 
-可以通过向`axios`传递相关配置来创建请求 . 
+可以通过向`axios`传递相关配置来创建请求 .
 
-axios\(config\)
+**axios\(config\)**
 
 ```js
 // 发送POST请求
@@ -14,6 +14,13 @@ axios({
     lastName: 'Flintstone'
   }
 });
+```
+
+##### axios\(url\[, config\]\)
+
+```js
+// 发送 GET 请求（默认的方法）
+axios('/user/12345');
 ```
 
 
