@@ -2,7 +2,7 @@
 
 Github : [https://github.com/axios/axios](https://github.com/axios/axios)
 
-Axios 是一个基于 promise 的 HTTP 库 , 可以用在浏览器和 node.js 中 . 
+Axios 是一个基于 promise 的 HTTP 库 , 可以用在浏览器和 node.js 中 .
 
 #### 特性
 
@@ -17,21 +17,21 @@ Axios 是一个基于 promise 的 HTTP 库 , 可以用在浏览器和 node.js �
 
 ## 安装
 
-使用 npm : 
+使用 npm :
 
 ```
 $ npm install axios
 ```
 
-使用 bower : 
+使用 bower :
 
 ```
 $ bower install axios
 ```
 
-使用 cdn : 
+使用 cdn :
 
-```asciidoc
+```
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
 
