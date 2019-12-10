@@ -63,5 +63,20 @@ axios.get('/user', {
   });
 ```
 
+执行`POST`请求
+
+```js
+axios.post('/user', {
+    firstName: 'Fred',
+    lastName: 'Flintstone'
+  })
+  .then(function (response) {
+    console.log(response);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
+```
+
 
 
