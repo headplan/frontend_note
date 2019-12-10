@@ -49,7 +49,7 @@ axios.get('/user?ID=12345')
     console.log(error);
   });
 
-// 可选地，上面的请求可以这样做
+// 可选地,上面的请求可以这样做
 axios.get('/user', {
     params: {
       ID: 12345
