@@ -35,5 +35,5 @@ axios.put(url[, data[, config]])
 axios.patch(url[, data[, config]])
 ```
 
-
+在使用别名方法时 , `url`、`method`、`data`这些属性都不必在配置中指定 . 
 
