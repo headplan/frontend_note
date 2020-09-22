@@ -25,7 +25,7 @@
       * [函数](uikuang-jia/bulma/gai-shu/han-shu.md)
       * [响应](uikuang-jia/bulma/gai-shu/xiang-ying.md)
     * [Modifiers修饰符](uikuang-jia/bulma/modifiersxiu-shi-fu.md)
-      * 版式帮助函数
+      * [版式帮助函数](uikuang-jia/bulma/modifiersxiu-shi-fu/ban-shi-bang-zhu-han-shu.md)
     * [Columns列](uikuang-jia/bulma/columnslie.md)
       * [列响应](uikuang-jia/bulma/columnslie/lie-xiang-ying.md)
       * [嵌套列](uikuang-jia/bulma/columnslie/qian-tao-lie.md)
