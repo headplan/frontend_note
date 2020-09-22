@@ -90,4 +90,5 @@
   * [Axios.js](jskuang-jia/axiosjs.md)
     * [axios API](jskuang-jia/axiosjs/axios-api.md)
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
+* [前端训练营](qian-duan-xun-lian-ying.md)
 
