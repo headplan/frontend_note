@@ -2,5 +2,5 @@
 
 ### 前端技能模型
 
-![](/assets/qianduanjineng.png)
+![](/assets/qdjnmx.png)
 
