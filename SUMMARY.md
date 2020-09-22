@@ -92,4 +92,5 @@
 * [前端知识架构](qian-duan-zhi-shi-jia-gou.md)
 * [前端训练营](qian-duan-xun-lian-ying.md)
   * [关于整个前端开发的书单](qian-duan-xun-lian-ying/guan-yu-zheng-ge-qian-duan-kai-fa-de-shu-dan.md)
+  * [关于前端](qian-duan-xun-lian-ying/guan-yu-qian-duan.md)
 
